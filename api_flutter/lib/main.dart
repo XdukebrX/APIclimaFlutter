@@ -88,7 +88,11 @@ class _MyAppState extends State<MyApp> {
           child: Column(
 
             children: [
-
+              Container(
+                child: Image.asset("assets/imgs/nuvem.jpg"),
+                
+                
+              ),
               Componentes.caxatexto("Insira o local desejado ou deixe em branco", "EX: Garopaba,SC", controllerclima, null),
               Container(
                 alignment: Alignment.center,
