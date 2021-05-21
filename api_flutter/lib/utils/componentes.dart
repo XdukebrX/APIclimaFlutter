@@ -13,6 +13,7 @@ class Componentes {
 
   static caxatexto(String text,String hint,  TextEditingController controlador, valido, {bool obscure=false, bool num=false}){
     return TextFormField(
+
         controller: controlador,
         obscureText: obscure,
         validator: valido,
